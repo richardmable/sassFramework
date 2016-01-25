@@ -1,0 +1,28 @@
+//come in xs, small, medium, large, and full-bore
+//columns lengths are based of the 10 unit grid system
+//xs = 1, s = 2, third = 3.33, m = 4, large = 5, and full-bore = 10 (100%)
+
+.xs {
+	width: 10%;
+}
+
+.small {
+	width: 20%;
+}
+
+.third {
+	width: 33.33%;
+}
+
+.medium {
+	width: 40%;
+}
+
+.large {
+	width: 50%;
+}
+
+.full-bore {
+	width: 100%;
+}
+
