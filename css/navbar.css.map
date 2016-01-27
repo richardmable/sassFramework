@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,MAAG;EACF,WAAW,EAAE,GAAG;AAGjB,SAAM;EACL,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,YAAY;AAGtB,WAAQ;EACP,eAAe,EAAE,IAAI;AAOtB,YAAS;EACR,WAAW,EAAE,GAAG;AAGjB,eAAY;EACX,eAAe,EAAE,IAAI;AAGtB,iBAAc;EACb,eAAe,EAAE,IAAI",
+"sources": ["../scss/navbar.scss"],
 "names": [],
 "file": "navbar.css"
 }

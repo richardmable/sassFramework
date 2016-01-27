@@ -1,0 +1,32 @@
+//This is the main scss file that links to index.html
+//you can easily turn on or off partitions that you like
+//you can add your own custom scss here
+//or you can edit the partials themselves
+
+//nav bar styling
+@import 'navbar';
+
+//color schemes
+@import 'color_scheme_bright';
+// @import 'color_scheme_dark';
+// @import 'color_scheme_neutral';
+
+//style for headings
+@import 'headings';
+
+//column style layout by percentages
+@import 'columns';
+
+//some basic defaults
+@import 'defaults';
+
+//the standard font for this framwork
+@import	'fonts';
+
+//optimized styling for tablets
+@import 'tablet_style';
+
+//optimized styling for mobile
+@import 'mobile_style';
+
+
