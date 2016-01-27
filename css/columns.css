@@ -1,17 +1,22 @@
 .xs {
-  width: 10%; }
+  width: 10%;
+  display: inline-block; }
 
 .small {
-  width: 20%; }
+  width: 20%;
+  display: inline-block; }
 
 .third {
-  width: 33.33%; }
+  width: 33%;
+  display: inline-block; }
 
 .medium {
-  width: 40%; }
+  width: 40%;
+  display: inline-block; }
 
 .large {
-  width: 50%; }
+  width: 50%;
+  display: inline-block; }
 
 .full-bore {
   width: 100%; }

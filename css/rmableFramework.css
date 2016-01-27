@@ -1,32 +1,50 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
-nav ul {
-  margin-left: 0px; }
-nav ul li {
-  list-style-type: none;
-  display: inline-block; }
-nav ul li a {
-  text-decoration: none; }
-nav ul li ul {
-  margin-left: 0px; }
-nav ul li ul li {
-  list-style-type: none; }
-nav ul li ul li a {
-  text-decoration: none; }
+nav {
+  font-weight: 300;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #AF453D;
+  height: 50px;
+  width: 100; }
+  nav ul {
+    margin-left: 0px; }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 25px; }
+  nav ul li a {
+    text-decoration: none; }
+  nav ul li ul {
+    margin-left: 0px; }
+  nav ul li ul:hover ul li ul li {
+    display: visible; }
+  nav ul li ul li {
+    list-style-type: none;
+    display: none; }
+  nav ul li ul li a {
+    text-decoration: none; }
 
 .xs {
-  width: 10%; }
+  width: 10%;
+  display: inline-block; }
 
 .small {
-  width: 20%; }
+  width: 20%;
+  display: inline-block; }
 
 .third {
-  width: 33.33%; }
+  width: 33%;
+  display: inline-block; }
 
 .medium {
-  width: 40%; }
+  width: 40%;
+  display: inline-block; }
 
 .large {
-  width: 50%; }
+  width: 50%;
+  display: inline-block; }
 
 .full-bore {
   width: 100%; }
@@ -37,5 +55,35 @@ nav ul li ul li a {
 
 body {
   font-family: 'Oswald', sans-serif; }
+
+.xs {
+  background-color: red;
+  text-align: center;
+  height: 200px; }
+
+.small {
+  background-color: green;
+  text-align: center;
+  height: 200px; }
+
+.third {
+  background-color: orange;
+  text-align: center;
+  height: 200px; }
+
+.medium {
+  background-color: purple;
+  text-align: center;
+  height: 200px; }
+
+.large {
+  background-color: yellow;
+  text-align: center;
+  height: 200px; }
+
+.full-bore {
+  text-align: center;
+  height: 200px;
+  background-color: blue; }
 
 /*# sourceMappingURL=rmableFramework.css.map */

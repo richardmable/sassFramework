@@ -1,4 +1,19 @@
+//color schemes need to appear in navbar as well
+//or the variables will not work
+@import 'color_scheme_bright';
+// @import 'color_scheme_dark';
+// @import 'color_scheme_neutral';
+
 nav {
+
+	font-weight: 300;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: $navbar-background;
+	height: 50px;
+	width: 100;
+
 	ul {
 		margin-left: 0px;
 	}
@@ -6,6 +21,8 @@ nav {
 	ul li {
 		list-style-type: none;
 		display: inline-block;
+		margin-right: 50px;
+		margin-left: 25px;
 	}
 
 	ul li a {
@@ -18,14 +35,25 @@ nav {
 	//begin submenus
 	ul li ul {
 		margin-left: 0px;
+		
+	}
+
+	ul li ul:hover {
+		ul li ul li {
+		display: visible;
+	}
+		
 	}
 
 	ul li ul li {
 		list-style-type: none;
+		display: none;
+
 	}
 
 	ul li ul li a {
 		text-decoration: none;
+
 	}
 
 	ul li ul li a:hover {

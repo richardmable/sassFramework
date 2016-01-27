@@ -30,3 +30,44 @@
 @import 'mobile_style';
 
 
+//here, the examples are styled and given heights
+//so you can see what they look like
+.xs {
+	background-color: red;
+	text-align: center;
+	height: 200px;
+}
+
+.small {
+	background-color: green;
+	text-align: center;
+	height: 200px;
+}
+
+
+.third {
+	background-color: orange;
+	text-align: center;
+	height: 200px;
+}
+
+.medium {
+	background-color: purple;
+	text-align: center;
+	height: 200px;
+}
+
+.large {
+	background-color: yellow;
+	text-align: center;
+	height: 200px;
+
+}
+
+
+.full-bore {
+	text-align: center;
+	height: 200px;
+	background-color: blue;
+}
+
