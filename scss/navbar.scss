@@ -10,9 +10,10 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: $navbar-background;
+	background-color: $color-primary-1;
 	height: 50px;
 	width: 100;
+	border-radius: 0px 0px 10px;
 
 	ul {
 		margin-left: 0px;
@@ -27,37 +28,42 @@ nav {
 
 	ul li a {
 		text-decoration: none;
+		color: $color-primary-3;
 	}
 
 	ul li a:hover {
+		color: $color-primary-4;
 
 	}
 	//begin submenus
-	ul li ul {
+	ul .dropdown {
+		color: $color-primary-3;
+	}
+
+	ul .dropdown:hover {
+		color: $color-primary-4;
+	}
+
+
+	ul .dropdown ul {
 		margin-left: 0px;
-		
-	}
-
-	ul li ul:hover {
-		ul li ul li {
-		display: visible;
-	}
-		
-	}
-
-	ul li ul li {
-		list-style-type: none;
+		// hide off screen unless hovered
 		display: none;
-
+		position: absolute;
 	}
 
-	ul li ul li a {
-		text-decoration: none;
-
+	ul .dropdown ul li {
+		color: $color-secondary-2-0;
+		width: 100px;
+		margin-top: 2px;
+		background-color: $color-secondary-2-3;
+		text-align: center;
+		margin-left: 0px;
 	}
 
-	ul li ul li a:hover {
-
+	ul .dropdown:hover ul {
+		display: block;
+		
 	}
 
 

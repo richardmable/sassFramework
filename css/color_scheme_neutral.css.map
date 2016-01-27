@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";AAEA,yBAAyB;AACzB,uEAAuE;AAEvE,kBAAkB;AAES,wBAAwB;AAMpB,8BAA8B;AAM9B,8BAA8B;AAQ7D,mBAAmB;AAEmB,wBAAwB;AAMpB,8BAA8B;AAM9B,8BAA8B;AAQxE,4CAA4C;AAC5C,yBAAyB",
+"sources": ["../scss/color_scheme_neutral.scss"],
 "names": [],
 "file": "color_scheme_neutral.css"
 }
